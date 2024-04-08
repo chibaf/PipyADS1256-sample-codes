@@ -31,6 +31,39 @@ GPIO#:	Description
 
 14:	SCLK (SCK)
 
+#CHIP_SELECT_GPIOS_INITIALIZE = (7, 8)
+
+CHIP_SELECT_GPIOS_INITIALIZE = (7, 8)
+
+CS_PIN      = 8 # CH0
+
+#CS_PIN      = 7 # CH1
+
+DRDY_PIN    = 5 # CH0
+
+CS_PIN      = 8 # CH0
+
+#CS_PIN      = 7 # CH1
+
+DRDY_PIN    = 5 # CH0
+
+#DRDY_PIN    = 6 # CH1
+
+RESET_PIN   = 3 # Set to None if not used.
+
+# Optional power down pin
+
+PDWN_PIN    = 2 # Set to None if not used.
+
+DRDY_TIMEOUT    = 2
+
+# Optional delay in seconds to avoid busy wait and reduce CPU load when
+
+# polling the DRDY pin. Default is 0.000001 or 1 µs (timing not accurate)
+
+DRDY_DELAY      = 0.000001
+
+
 ## ref:
 
 ul-gh/PiPyADC: Python classes for interfacing Texas Instruments analog-to-digital converters with the Raspberry Pi
