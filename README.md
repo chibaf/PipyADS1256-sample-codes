@@ -7,6 +7,10 @@ PipyADS1256-sample-codes
 
 ref : Raspberry Pi Documentation - Raspberry Pi hardware https://www.raspberrypi.com/documentation/computers/raspberry-pi.html
 
+## ADS1256 pin layout
+
+![ADS1256-pins](https://github.com/chibaf/PipyADS1256-sample-codes/assets/1296728/dd428b8b-d8ed-44bb-a406-4707e179e18c)
+
 ## RasPi vs ADS1256: pin còrrespóndence between RasPi and ADS1256
 
 GPIO#:	Description
