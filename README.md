@@ -31,6 +31,24 @@ GPIO#:	Description
 
 14:	SCLK (SCK)
 
+##  from bench_config.py
+
+#### Raspberry Pi GPIO configuration ##########################################
+# =====> NEW in version 2 since using pigpio instead of wiringpi library:
+# =====> Raspberry Pi pinning now uses the Broadcom numbering scheme!
+#
+# Tuple of all (chip select) GPIO numbers to be configured as an output and
+# initialised to (inactive) logic high state before bus communication starts.
+# Necessary for more than one SPI device if GPIOs are not otherwise handled.
+
+#CHIP_SELECT_GPIOS_INITIALIZE = (7, 8)
+
+CHIP_SELECT_GPIOS_INITIALIZE = (7, 8)
+
+# Chip select GPIO pin number.
+# This is required as hardware chip select can not be used with the ADS125x
+# devices using this library
+
 #CHIP_SELECT_GPIOS_INITIALIZE = (7, 8)
 
 CHIP_SELECT_GPIOS_INITIALIZE = (7, 8)
