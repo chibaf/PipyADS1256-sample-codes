@@ -29,3 +29,6 @@ GPIO#:	Description
 
 ## ref:
 
+ul-gh/PiPyADC: Python classes for interfacing Texas Instruments analog-to-digital converters with the Raspberry Pi
+
+https://github.com/ul-gh/PiPyADC/tree/pigpio
