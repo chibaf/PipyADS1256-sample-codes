@@ -17,7 +17,7 @@ GPIO#:	Description
 
 17:	Data Ready (DRDY)
 
-18:	RESET
+18:	RESET (GND)
 
 27:	Power Down (PDWN)
 
